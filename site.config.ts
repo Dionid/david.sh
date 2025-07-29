@@ -14,7 +14,8 @@ export default siteConfig({
   author: 'david shekunts',
 
   // open graph metadata (optional)
-  description: 'Small portfolio page of david shekunts – tech lead golang || node.ts',
+  description:
+    'small portfolio page of david shekunts – tech lead golang || node.ts',
 
   // social usernames (optional)
   // twitter: 'david_shekunts',

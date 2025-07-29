@@ -15,8 +15,12 @@
 }
 
 .notion-page {
-  padding-bottom: 30vh;
-  line-height: 1.65;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0;
+  line-height: 1;
   padding-left: calc(min(15px, 8vw));
   padding-right: calc(min(15px, 8vw));
 }
@@ -151,6 +155,8 @@
 
 .notion-callout {
   margin: 0.75em 0;
+  border: none;
+  border-radius: 10px;
 }
 
 .notion-hr {
@@ -577,4 +583,18 @@ ol > ol > .notion-code {
 .dark-mode .notion-file-link .notion-file-icon {
   color: #fff;
   fill: #fff;
+}
+
+.notion-header, .notion-title, footer {
+  display: none !important;
+}
+
+.notion-callout-text > .notion-text {
+  margin-top: 0;
+  padding-top: 3px;
+  margin-bottom: 7px;
+}
+
+.dark-mode {
+  --notion-yellow: rgb(246 169 0);
 }
