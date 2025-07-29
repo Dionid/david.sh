@@ -20,7 +20,7 @@
   justify-content: center;
   align-items: center;
   padding-bottom: 0;
-  line-height: 1;
+  line-height: 1.7;
   padding-left: calc(min(15px, 8vw));
   padding-right: calc(min(15px, 8vw));
 }
@@ -591,10 +591,15 @@ ol > ol > .notion-code {
 
 .notion-callout-text > .notion-text {
   margin-top: 0;
+  padding-bottom: 0;
   padding-top: 3px;
   margin-bottom: 7px;
 }
 
 .dark-mode {
   --notion-yellow: rgb(246 169 0);
+}
+
+.notion-page-icon-image {
+  margin-top: 6px;
 }
