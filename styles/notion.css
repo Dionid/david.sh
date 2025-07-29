@@ -603,3 +603,9 @@ ol > ol > .notion-code {
 .notion-page-icon-image {
   margin-top: 6px;
 }
+
+@media (max-width: 640px) {
+  .notion-row .notion-column.notion-block-23fb59d9b4c9818ba1c2ce9b3d731a3b {
+    width: 150px !important;
+  }
+}
