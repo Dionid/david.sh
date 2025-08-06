@@ -15,14 +15,12 @@
 }
 
 .notion-page {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 0;
   line-height: 1.7;
-  padding-left: calc(min(15px, 8vw));
-  padding-right: calc(min(15px, 8vw));
+  padding: 150px calc(min(15px, 8vw));
 }
 
 @media only screen and (max-width: 920px) {
@@ -608,4 +606,8 @@ ol > ol > .notion-code {
   .notion-row .notion-column.notion-block-23fb59d9b4c9818ba1c2ce9b3d731a3b {
     width: 150px !important;
   }
+}
+
+.notion-page-no-cover.notion-page-no-icon {
+  padding-top: 150px;
 }
